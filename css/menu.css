@@ -1,0 +1,86 @@
+/* Header Section */
+.header-section .container {
+    align-items: center;
+    background: url("../assets/images/coffee-circle.jpg") center center / cover;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-section__heading--container {
+    background: var(--primary-dark);
+    align-items: center;
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+    position: relative;
+    width: 18.75rem;
+}
+
+h1.header-section__heading  {
+    align-items: center;
+    border: 5px solid var(--blue-accent);
+    color: #fff;
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+    left: -1.25rem;
+    position: absolute;
+    top: -1.25rem;
+    width: 18.75rem;
+}
+
+/* Grey nav-bar menu */
+.main__nav-menu {
+    align-items: center;
+    background: var(--primary-dark);
+    color: #fff;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+}
+
+.main__nav-menu ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.main__nav-menu ul li::before {
+    border: 2px solid var(--blue-accent);
+    content: "";    
+    margin-right: 0.8rem;
+}
+
+/* Multi-Section Rules */
+.price {
+    padding-bottom: 2rem;
+}
+
+/* Menu Article which wraps Hot Drinks/ Cold Drinks & Pastries sections */
+.menu--article section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.menu--article section h2 {
+    margin-bottom: 2rem;
+}
+
+.menu--article section p {
+    letter-spacing: 1px;
+    line-height: 1.75;
+    margin-bottom: 0.85rem;
+    max-width: 600px;
+}
+
+/* Hot Drinks Section */
+.hot-drinks-section, 
+.pastries-section {
+    background: var(--pink-accent);
+}
